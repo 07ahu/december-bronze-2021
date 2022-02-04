@@ -1,0 +1,11 @@
+n = int(input())
+x = str(input())
+
+count = 0
+
+for i in range(len(x)-2):
+	if x[i:i+3] == "GGG" or x[i:i+3] == "HHH":
+		continue
+	else:
+		count+=1
+print(count)
