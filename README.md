@@ -1,1 +1,1 @@
-# december-bronze-2021
+# usaco-practice
