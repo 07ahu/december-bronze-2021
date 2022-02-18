@@ -1,0 +1,13 @@
+n = int(input())
+x = list(map(int,input().split()))
+x.sort()
+
+j=1
+ans=0
+for i in range(n-1):
+	if x[i]!=j:
+		ans=x[i]
+		break
+	j+=1
+print(j)
+		
